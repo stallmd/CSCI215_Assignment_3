@@ -1,10 +1,19 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Countdown</title>
+    <title>Count Down</title>
+
 </head>
 <body>
+<div class="message">You are only allowed to type 50 characters. </div>
+<input title="userInput" type="text" id="userInput" onkeyup="remain()">
+<br />
 
+<div class="message">Numbers remaining: </div>
+<div id="output">50</div>
+
+<script src="js/countDown.js"></script>
 </body>
 </html>
