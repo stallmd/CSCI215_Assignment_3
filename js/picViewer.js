@@ -5,7 +5,7 @@ for(var i=0; i<5; i++) {
     console.log("pic src:" + picture[i].src);
 
     function over(){
-        picture[i]height = 200;
+        picture[i].height = 200;
         picture[i].width = 400;
     }
 
